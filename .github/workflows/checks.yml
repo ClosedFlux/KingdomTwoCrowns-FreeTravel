@@ -1,0 +1,12 @@
+name: Travel rules
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  rules:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate travel rules
+        shell: pwsh
+        run: ./scripts/test.ps1

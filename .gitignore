@@ -1,0 +1,8 @@
+dist/
+work/
+backups/
+*.pdb
+*.user
+bin/
+obj/
+.DS_Store
