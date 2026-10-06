@@ -1,0 +1,7 @@
+dist/
+work/
+backups/
+bin/
+obj/
+*.pdb
+*.rsp

@@ -10,3 +10,6 @@ jobs:
       - name: Validate travel rules
         shell: pwsh
         run: ./scripts/test.ps1
+      - name: Validate Chinese menu display rules
+        shell: pwsh
+        run: ./menu-chinese/scripts/test.ps1
