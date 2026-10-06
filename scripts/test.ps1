@@ -15,3 +15,9 @@ Check 2 0 5 $false $false $true $false $false
 Check 2 0 5 $false $true $false $false $false
 Check 2 0 5 $false $true $true $true $false
 Write-Output 'PASS: 9 travel validation checks.'
+foreach ($state in @('Pushing','WaitingForPlayer','WaitingForPassengers')) {
+    if ([KingdomMod.FreeTravel.TravelRules]::UseBoatGroup($true,$state)) { throw "Unready boat $state must not block free travel." }
+}
+if ([KingdomMod.FreeTravel.TravelRules]::UseBoatGroup($false,'Sailing')) { throw 'No boat cannot select boat travel.' }
+if (![KingdomMod.FreeTravel.TravelRules]::UseBoatGroup($true,'Sailing')) { throw 'Sailing boat should retain native boat travel.' }
+Write-Output 'PASS: 5 boat selection checks.'

@@ -4,6 +4,6 @@
     {
         public const string PLUGIN_GUID = "KingdomMod.FreeTravel";
         public const string PLUGIN_NAME = "自由换岛 FreeTravel";
-        public const string PLUGIN_VERSION = "0.1.0";
+        public const string PLUGIN_VERSION = "0.1.1";
     }
 }
