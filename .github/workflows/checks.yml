@@ -13,3 +13,6 @@ jobs:
       - name: Validate Chinese menu display rules
         shell: pwsh
         run: ./menu-chinese/scripts/test.ps1
+      - name: Validate automatic collection rules
+        shell: pwsh
+        run: ./auto-collect/scripts/test.ps1

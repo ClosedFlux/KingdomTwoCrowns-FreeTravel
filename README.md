@@ -8,6 +8,8 @@
 
 本仓库还提供独立的 **菜单汉化 1.3.2**：[下载菜单汉化版](https://github.com/ClosedFlux/KingdomTwoCrowns-FreeTravel/releases/tag/menu-zh-v1.3.2) · [源码、安装和许可说明](menu-chinese/README.md)。菜单组件使用 `menu-zh-v1.3.2` 标签，与 FreeTravel 的 `v0.1.1` 分开编号和打包；仅需要自由换岛时继续下载下面的 FreeTravel 安装包。
 
+本仓库另提供独立的 **市民自动收钱 0.1**：[下载](https://github.com/ClosedFlux/KingdomTwoCrowns-FreeTravel/releases/tag/auto-collect-v0.1) · [说明与源码](auto-collect/README.md)。需要单独安装 Unlimited Wallet 1.1.1；仅支持单人。
+
 ## 下载
 
 [下载 v0.1.1 安装包](https://github.com/ClosedFlux/KingdomTwoCrowns-FreeTravel/releases/tag/v0.1.1) · [历史 v0.1.0](https://github.com/ClosedFlux/KingdomTwoCrowns-FreeTravel/releases/tag/v0.1.0) · [版本说明](CHANGELOG.md) · [反馈问题](https://github.com/ClosedFlux/KingdomTwoCrowns-FreeTravel/issues)
